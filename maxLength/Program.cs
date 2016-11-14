@@ -29,7 +29,7 @@ namespace maxLength
                 return 0;
             else if (length == 1)
                 return 1;
-            else if (length > 100)
+            else if (length > 30000)
                 return 0;
 
 	        string str1 = str.ToLower();
