@@ -1,0 +1,7 @@
+c:\users\j不如归去l\documents\visual studio 2010\Projects\maxLength\TestProject1\bin\Debug\TestProject1.dll
+c:\users\j不如归去l\documents\visual studio 2010\Projects\maxLength\TestProject1\bin\Debug\TestProject1.pdb
+c:\users\j不如归去l\documents\visual studio 2010\Projects\maxLength\TestProject1\bin\Debug\maxLength.exe
+c:\users\j不如归去l\documents\visual studio 2010\Projects\maxLength\TestProject1\bin\Debug\maxLength.pdb
+c:\users\j不如归去l\documents\visual studio 2010\Projects\maxLength\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+c:\users\j不如归去l\documents\visual studio 2010\Projects\maxLength\TestProject1\obj\Debug\TestProject1.dll
+c:\users\j不如归去l\documents\visual studio 2010\Projects\maxLength\TestProject1\obj\Debug\TestProject1.pdb

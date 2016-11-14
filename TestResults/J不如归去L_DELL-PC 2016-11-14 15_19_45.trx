@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="673ddec3-0e43-4c70-85ca-2605c0fcd749" name="J不如归去L@DELL-PC 2016-11-14 15:19:45" runUser="DELL-PC\J不如归去L" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="98ec7db9-5643-4bd7-968a-fd644eeedd24">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="J不如归去L_DELL-PC 2016-11-14 15_19_45">
+      <DeploymentItem filename="c:\users\j不如归去l\documents\visual studio 2010\Projects\maxLength\maxLength\bin\Debug\maxLength.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-11-14T15:19:45.2891766+08:00" queuing="2016-11-14T15:19:45.3221785+08:00" start="2016-11-14T15:19:45.3281789+08:00" finish="2016-11-14T15:19:45.8972114+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getLengthTest" storage="c:\users\j不如归去l\documents\visual studio 2010\projects\maxlength\testproject1\bin\debug\testproject1.dll" id="ed0d998a-0d8f-30fe-e667-d83a3d49ccaa">
+      <Execution id="48e02967-2459-4098-aafa-a746aa5ae4ca" />
+      <TestMethod codeBase="C:/Users/J不如归去L/Documents/Visual Studio 2010/Projects/maxLength/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getLengthTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ed0d998a-0d8f-30fe-e667-d83a3d49ccaa" executionId="48e02967-2459-4098-aafa-a746aa5ae4ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="48e02967-2459-4098-aafa-a746aa5ae4ca" testId="ed0d998a-0d8f-30fe-e667-d83a3d49ccaa" testName="getLengthTest" computerName="DELL-PC" duration="00:00:00.0787092" startTime="2016-11-14T15:19:45.3921825+08:00" endTime="2016-11-14T15:19:45.8842107+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48e02967-2459-4098-aafa-a746aa5ae4ca">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;6&gt;. Actual:&lt;26&gt;. </Message>
+          <StackTrace>   at TestProject1.OperationTest.getLengthTest() in C:\Users\J不如归去L\Documents\Visual Studio 2010\Projects\maxLength\TestProject1\OperationTest.cs:line 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
